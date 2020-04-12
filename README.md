@@ -30,7 +30,30 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## Firebase configuration
 
-`firebase login` to get credentials.
-`firebase init` to initialize firebase project. Choose dist folder as the default directory, configure it as a SPA and finally don't overwrite index.html.
-`firebase serve` to test firebase services.
-`firebase deploy` to deploy the application. Follow the hosting URL provided where you can see the vue app live
+### Get credentials
+
+```
+firebase login
+```
+
+### Initialize project
+
+```
+firebase init
+```
+
+Choose dist folder as the default directory, configure it as a SPA and finally don't overwrite index.html.
+
+### Test firebase services
+
+```
+firebase serve
+```
+
+### Deploy
+
+```
+firebase deploy
+```
+
+Follow the hosting URL provided where you can see the vue app live
