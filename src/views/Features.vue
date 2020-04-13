@@ -3,7 +3,7 @@
     <div class="py-12"></div>
 
     <v-container class="text-center">
-      <h2 class="display-2 font-weight-bold mb-3">NUESTROS SERVICIOS 🔧</h2>
+      <h2 class="display-2 font-weight-bold mb-3">SERVICES 🔧</h2>
 
       <v-responsive class="mx-auto mb-12" width="56">
         <v-divider class="mb-1"></v-divider>

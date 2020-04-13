@@ -1,5 +1,5 @@
 <template>
-  <v-bottom-navigation app dark grow hide-on-scroll class="d-flex d-md-none">
+  <v-bottom-navigation app dark grow class="d-flex d-md-none">
     <v-btn @click="$vuetify.goTo('#about')">
       <v-icon>mdi-account-multiple</v-icon>
     </v-btn>
