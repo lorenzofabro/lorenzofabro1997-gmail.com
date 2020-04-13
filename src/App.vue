@@ -8,13 +8,15 @@
       <Stats />
       <Blog />
       <Contact />
+      <Footer />
     </v-content>
-    <Footer />
+    <BottomNavigation />
   </v-app>
 </template>
 
 <script>
 import Appbar from "./components/Appbar";
+import BottomNavigation from "./components/BottomNavigation";
 import Footer from "./components/Footer";
 import Home from "./views/Home";
 import About from "./views/About";
@@ -34,7 +36,8 @@ export default {
     Stats,
     Blog,
     Footer,
-    Contact
+    Contact,
+    BottomNavigation
   },
 
   data: () => ({

@@ -2,10 +2,10 @@
   <v-app-bar app dark>
     <div class="d-flex align-center">
       <v-img
-        alt="Vuetify Logo"
+        alt="Nexos Logo"
         class="shrink mr-2"
         contain
-        src="https://lh3.googleusercontent.com/a-/AOh14GjVFZ0pRyaA6PGKKo4XxN_ZnBbq2QtVbSP8Yt08=s48"
+        src="../assets/nexos.png"
         transition="scale-transition"
         width="40"
       />
@@ -15,6 +15,14 @@
     </div>
 
     <v-spacer></v-spacer>
+
+    <v-toolbar-items class="d-none d-md-flex">
+      <v-btn flat @click="$vuetify.goTo('#about')">Sobre Nosotros</v-btn>
+      <v-btn flat @click="$vuetify.goTo('#features')">Nuestros Servicios</v-btn>
+      <v-btn flat @click="$vuetify.goTo('#stats')">Estadísticas</v-btn>
+      <v-btn flat @click="$vuetify.goTo('#blog')">Blog</v-btn>
+      <v-btn flat @click="$vuetify.goTo('#contact')">Contáctanos</v-btn>
+    </v-toolbar-items>
   </v-app-bar>
 </template>
 
