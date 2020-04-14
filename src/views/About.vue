@@ -33,31 +33,47 @@
 
       <div></div>
 
-      <v-btn
-        color="grey"
-        href="https://github.com/lorenzofabro"
-        outlined
-        large
-        class="mr-2"
-        target="blank"
-      >
-        <v-icon>mdi-github</v-icon>
-        <span class="grey--text text--darken-1 font-weight-bold ml-1">
-          GitHub Profile
-        </span>
-      </v-btn>
-      <v-btn
-        color="grey"
-        href="https://twitter.com/lorenzofabro"
-        outlined
-        large
-        target="blank"
-      >
-        <v-icon>mdi-twitter</v-icon>
-        <span class="grey--text text--darken-1 font-weight-bold ml-1">
-          Twitter
-        </span>
-      </v-btn>
+      <v-container fluid>
+        <v-btn
+          color="grey"
+          href="https://github.com/lorenzofabro"
+          outlined
+          large
+          class="mr-0 mr-sm-2 mb-2 mb-sm-0 d-flex d-sm-inline-flex"
+          target="blank"
+        >
+          <v-icon>mdi-github</v-icon>
+          <span class="grey--text text--darken-1 font-weight-bold ml-1">
+            GitHub Profile
+          </span>
+        </v-btn>
+        <v-btn
+          color="grey"
+          href="https://twitter.com/lorenzofabro"
+          outlined
+          large
+          class="mr-0 mr-sm-2 mb-2 mb-sm-0 d-flex d-sm-inline-flex"
+          target="blank"
+        >
+          <v-icon>mdi-twitter</v-icon>
+          <span class="grey--text text--darken-1 font-weight-bold ml-1">
+            Twitter
+          </span>
+        </v-btn>
+        <v-btn
+          color="grey"
+          href="https://www.instagram.com/lorenfabro/"
+          outlined
+          large
+          class="d-flex d-sm-inline-flex"
+          target="blank"
+        >
+          <v-icon>mdi-instagram</v-icon>
+          <span class="grey--text text--darken-1 font-weight-bold ml-1">
+            Instagram
+          </span>
+        </v-btn>
+      </v-container>
     </v-container>
 
     <div class="py-12"></div>
