@@ -1,6 +1,6 @@
 <template>
   <v-app-bar app dark>
-    <div class="d-flex align-center">
+    <div class="d-flex align-center" @click="$vuetify.goTo('#home')" id="logo">
       <v-img
         alt="Logo"
         class="shrink mr-2"
@@ -29,3 +29,9 @@
 <script>
 export default {};
 </script>
+
+<style>
+#logo:hover {
+  cursor: pointer;
+}
+</style>
